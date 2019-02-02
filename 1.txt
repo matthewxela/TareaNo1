@@ -1,0 +1,17 @@
+Inicio AreaTriangulo
+
+	var base
+	var altura
+	var area
+
+	Escribir "Ingrese Base"
+	Leer (base)
+
+	Escribir "Ingrese Altura"
+	Leer (altura)
+
+	area = (1/2) * base * altura 
+
+	Escribir "El Area es ", area
+
+Fin

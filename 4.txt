@@ -1,0 +1,19 @@
+Inicio DeDosEnDos
+
+	var ciclo
+	var promedio
+	var final
+	 
+	ciclo = 0
+	
+	Escribir "Ingrese Numero"
+	Leer (numero)
+	
+	Escribir ciclo
+	final = numero /2
+	Mientras (ciclo < final) Hacer
+		ciclo = ciclo + 1
+		Escribir ciclo * 2
+	FinMientras
+	
+Fin

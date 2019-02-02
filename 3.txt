@@ -1,0 +1,21 @@
+Inicio TotalPromedio
+	var ciclo
+	var total
+	var promedio
+	 
+	total = 0
+	ciclo = 1
+	promedio = 0
+
+	Repetir
+		ciclo = ciclo + 1
+		Escribir "Ingrese Numero", ciclo
+		Leer (numero)
+		total = total + numero;
+	Hasta Que (ciclo >= 10)
+		
+		promedio = total / 10
+		Escribir "El total es: ", total
+		Escribir "El Promedio es: ", promedio
+	
+Fin

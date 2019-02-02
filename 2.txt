@@ -1,0 +1,29 @@
+Inicio Persona
+	var edad
+	var genero
+	var hombreMujer
+
+	Escribir "Ingrese su edad "
+	Leer (edad)
+
+	Escribir "Ingrese su genero (f/m) "
+	Leer (genero)
+
+	si (genero == "f") entonces
+		hombreMujer = "Mujer"
+	sino
+		si (genero == "m") entonces
+			hombreMujer = "Hombre"
+		sino
+			hombreMujer = "No Especifico"
+		finsi
+	finsi
+
+	si (edad >= 18 ) entonces
+		Escribir "Puede Votar"
+	sino
+		Escribir "No Puede Votar"
+	finsi
+		Escribir "Su Genero es: ", hombreMujer
+
+Fin

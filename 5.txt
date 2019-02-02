@@ -1,0 +1,33 @@
+Inicio Password
+
+	const  clave = "IPC1"
+	
+	var contador
+	var promedio
+	var salir
+	var texto
+
+	contador = 0
+	promedio = 0
+	salir = 0
+	
+	Repetir
+		contador = contador + 1
+		Escribir "Ingrese Contraseña:"
+		Leer (texto)
+
+		si (texto == clave )
+			Escribir "Clave Correcta"	
+			salir = 1
+		sino 
+			Escribir "Clave Incorrecta"
+		FinSi
+
+		si (contador >= 3)
+			Escribir "Lo siento Tuvo 3 Intentos Erroneos..."
+			Escribir "Fin del Programa"
+		FinSi
+
+	Hasta Que (salir ==1 ) o (contador >=3) 
+		
+Fin
